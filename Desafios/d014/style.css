@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 380px;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead th, .media{
+    color: white;
+    background-color: grey;
+}
+
+th, td, tr{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.media th{
+    text-align: left;
+}

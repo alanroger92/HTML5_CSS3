@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture><!--A tag source serve para mudar a imagem conforme o tamanho dela-->
+        <source media="(max-width: 750px)" srcset="imagens/Pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Media.png" type="image/png">
+        <img src="imagens/Grande.png" alt="imagem com letra g no centro">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/guanacast.mp3" controls></audio><br>
+    <p>Para baixar esse audio, <a href="midia/guanacast.mp3" target="_blank">clique aqui</a>.</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/happymistake.mp3" type="audio/mpeg">
+    </audio>
+    <p>Para baixar esse audio, <a href="midia/happymistake.mp3" target="_blank">clique aqui</a>.</p>
+
+    <h1>Reproduzindo Videos</h1>
+    
+</body>
+</html>

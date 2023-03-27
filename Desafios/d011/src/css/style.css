@@ -1,0 +1,16 @@
+body{
+    height: 97vh;
+    background: #262D40 url('../image/espaco.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+#conteudo{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url('../image/astronauta.png');
+    background-size: 100% 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

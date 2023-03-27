@@ -1,0 +1,11 @@
+@font-face {
+    font-family:'love';
+    src: url('fonts/love.ttf');
+}
+body{
+    font-family: 'Arial, Helvetica, sans-serif';
+    text-align: center;
+}
+h1{
+    font-family: 'love';
+}

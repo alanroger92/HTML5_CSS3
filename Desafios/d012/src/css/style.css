@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonteEscrita: 'Cedarville Cursive', cursive;
+    --fonteTitulo: 'Orbitron', sans-serif;
+}
+
+html, body{
+    background-color: grey;
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    font-family: var(--fonteTitulo);
+    font-size: 3em;
+    font-variant: small-caps; /*serve pra deixar maiusculo e também tem o text-transform*/
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: var(--fonteEscrita);
+    font-size: 5vw;
+    font-weight: bold;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(124, 70, 70);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0,0.5);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url('../image/background001.jpg');
+    background-position: right center;
+
+}
+
+section#img02{
+    background-image: url('../image/background002.jpg');
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+}
